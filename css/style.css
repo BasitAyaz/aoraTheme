@@ -1,0 +1,112 @@
+* {
+  font-family: "DM Sans", sans-serif;
+}
+.banner {
+  height: 100%;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.backgroundImage {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navParent {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.primaryButton {
+  background-color: #83ae7b;
+  padding: 15px 50px;
+  border: none;
+  border-radius: 50px;
+  color: white;
+}
+.heading {
+  color: #83ae7b;
+  display: flex;
+  justify-content: center;
+}
+.banner2Inner {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.9416141456582633) 0%,
+    rgba(0, 0, 0, 0) 99%
+  );
+}
+.banner2 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner3 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-semiTransparent {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.sellCard {
+  width: 90%;
+  max-width: 400px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.primaryBackground {
+  background-color: #83ae7b;
+}
+.text-color {
+  color: #83ae7b;
+}
+.date {
+  color: #bfbfbf;
+}
+.blogIco {
+  text-decoration: none;
+  color: grey;
+  display: inline-block;
+  margin: 5px;
+}
+.blogIco:hover {
+  color: #83ae7b;
+}
+.blogCard {
+  position: relative;
+}
+.BlogRibbon {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  background-color: #c24238;
+  padding: 15px 25px 15px 45px;
+  color: white;
+  border-radius: 0 12px 12px 0;
+}
+.footerIco {
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  color: black;
+  border-radius: 15px;
+  display: inline-block;
+}
+.footerIco:hover {
+  background-color: #83ae7b;
+  color: white;
+}
+.footerEmail {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px 0 0 50px;
+}
+.footerbtn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0 50px 50px 0;
+  background-color: black;
+  color: white;
+}

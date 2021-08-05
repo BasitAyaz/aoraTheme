@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <title>Blog</title>
+  </head>
+  <body>
+    <div
+      style="background-image: url('../images/blogs\ page\ banner.jpg')"
+      class="backgroundImage"
+    >
+      <div class="navParent py-4">
+        <nav class="navbar container navbar-expand-lg navbar-dark">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link disabled"
+                    href="#"
+                    tabindex="-1"
+                    aria-disabled="true"
+                    >Disabled</a
+                  >
+                </li>
+              </ul>
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="navbar-brand" href="#"
+                    ><img src="../images/logo.png" width="90px" alt=""
+                  /></a>
+                </li>
+              </ul>
+
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link disabled"
+                    href="#"
+                    tabindex="-1"
+                    aria-disabled="true"
+                    >Disabled</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div>
+        <div class="container py-5">
+          <div class="row py-5 my-5">
+            <div
+              class="
+                col-md-6
+                d-flex
+                flex-column
+                justify-content-center
+                text-white
+                py-5
+              "
+            >
+              <p class="fs-2">Home/Blog</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="py-5">
+      <div class="container">
+        <h2 class="heading">
+          <span><img src="../images/hIcon.png" width="70px" alt="" /></span>
+          <span>-</span>
+          <span class="text-center">Blog Spot</span>
+          <span>-</span>
+          <span><img src="../images/hIcon.png" width="70px" alt="" /></span>
+        </h2>
+      </div>
+    </div>
+    <div class="py-5 text-center">
+      <div>
+        <button
+          class="btn rounded-pill px-5 shadow mx-1 primaryBackground text-white"
+        >
+          All
+        </button>
+        <button class="btn rounded-pill px-5 shadow m-1">All</button>
+        <button class="btn rounded-pill px-5 shadow m-1">Most Recent</button>
+        <button class="btn rounded-pill px-5 shadow m-1">Popular</button>
+        <button class="btn rounded-pill px-5 shadow m-1">Featured</button>
+        <button class="btn rounded-pill px-5 shadow m-1">Latest</button>
+      </div>
+    </div>
+
+    <div class="py-5">
+      <div class="container">
+        <div class="row border-bottom border-secondary">
+          <div class="col-md-8 p-3">
+            <div class="blogCard">
+              <div class="BlogRibbon">Featured</div>
+              <img src="../images/kat.jpg" width="100%" alt="" />
+              <div class="py-3">
+                <p class="date fs-5">Posted On: 28 July 2021</p>
+                <p class="fs-4 text-color">
+                  Vestibulum ac diam sit amet quam vehicula elementum sed sit
+                  amet dui. Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit.
+                </p>
+                <p class="fs-5">
+                  Vestibulum ac diam sit amet quam vehicula elementum sed sit
+                  amet dui. Curabitur non nulla sit amet nisl tempus convallis
+                  quis ac lectus. Vestibulum ac diam sit amet quam Vestibulum ac
+                  diam sit amet quam vehicula elementum sed sit amet dui.
+                  Curabitur non nulla sit amet nisl tempus convallis quis ac
+                  lectus. Vestibulum ac diam sit amet quam Read More
+                </p>
+                <p class="fs-5 my-1"><a href="#">Read More</a></p>
+                <div class="py-3">
+                  <p class="fs-4">
+                    <a class="blogIco" href="#"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                    <a class="blogIco" href="#"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                    <a class="blogIco" href="#"
+                      ><i class="fab fa-instagram"></i
+                    ></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 p-3">
+            <div class="blogCard">
+              <div class="BlogRibbon">Featured</div>
+              <img src="../images/candle.jpg" width="100%" alt="" />
+              <div class="py-3">
+                <p class="date fs-6">Posted On: 28 July 2021</p>
+                <p class="fs-5 text-color">
+                  Vestibulum ac diam sit amet quam vehicula elementum sed sit
+                  amet dui. Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit.
+                </p>
+                <p class="fs-6"><a href="#">Read More</a></p>
+                <div class="py-3">
+                  <p class="fs-4">
+                    <a class="blogIco" href="#"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                    <a class="blogIco" href="#"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                    <a class="blogIco" href="#"
+                      ><i class="fab fa-instagram"></i
+                    ></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="blogCard">
+              <div class="BlogRibbon">Featured</div>
+              <img src="../images/yoga.jpg" width="100%" alt="" />
+              <div class="py-3">
+                <p class="date fs-6">Posted On: 28 July 2021</p>
+                <p class="fs-5 text-color">
+                  Vestibulum ac diam sit amet quam vehicula elementum sed sit
+                  amet dui. Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit.
+                </p>
+                <p class="fs-6"><a href="#">Read More</a></p>
+                <div class="py-3">
+                  <p class="fs-4">
+                    <a class="blogIco" href="#"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                    <a class="blogIco" href="#"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                    <a class="blogIco" href="#"
+                      ><i class="fab fa-instagram"></i
+                    ></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row border-bottom border-secondary">
+          <div class="col-md-8 p-3">
+            <div class="blogCard">
+              <div class="BlogRibbon">Featured</div>
+              <img src="../images/kat.jpg" width="100%" alt="" />
+              <div class="py-3">
+                <p class="date fs-5">Posted On: 28 July 2021</p>
+                <p class="fs-4 text-color">
+                  Vestibulum ac diam sit amet quam vehicula elementum sed sit
+                  amet dui. Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit.
+                </p>
+                <p class="fs-5">
+                  Vestibulum ac diam sit amet quam vehicula elementum sed sit
+                  amet dui. Curabitur non nulla sit amet nisl tempus convallis
+                  quis ac lectus. Vestibulum ac diam sit amet quam Vestibulum ac
+                  diam sit amet quam vehicula elementum sed sit amet dui.
+                  Curabitur non nulla sit amet nisl tempus convallis quis ac
+                  lectus. Vestibulum ac diam sit amet quam Read More
+                </p>
+                <p class="fs-5 my-1"><a href="#">Read More</a></p>
+                <div class="py-3">
+                  <p class="fs-4">
+                    <a class="blogIco" href="#"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                    <a class="blogIco" href="#"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                    <a class="blogIco" href="#"
+                      ><i class="fab fa-instagram"></i
+                    ></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 p-3">
+            <div class="blogCard">
+              <div class="BlogRibbon">Featured</div>
+              <img src="../images/candle.jpg" width="100%" alt="" />
+              <div class="py-3">
+                <p class="date fs-6">Posted On: 28 July 2021</p>
+                <p class="fs-5 text-color">
+                  Vestibulum ac diam sit amet quam vehicula elementum sed sit
+                  amet dui. Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit.
+                </p>
+                <p class="fs-6"><a href="#">Read More</a></p>
+                <div class="py-3">
+                  <p class="fs-4">
+                    <a class="blogIco" href="#"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                    <a class="blogIco" href="#"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                    <a class="blogIco" href="#"
+                      ><i class="fab fa-instagram"></i
+                    ></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="blogCard">
+              <div class="BlogRibbon">Featured</div>
+              <img src="../images/yoga.jpg" width="100%" alt="" />
+              <div class="py-3">
+                <p class="date fs-6">Posted On: 28 July 2021</p>
+                <p class="fs-5 text-color">
+                  Vestibulum ac diam sit amet quam vehicula elementum sed sit
+                  amet dui. Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit.
+                </p>
+                <p class="fs-6"><a href="#">Read More</a></p>
+                <div class="py-3">
+                  <p class="fs-4">
+                    <a class="blogIco" href="#"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                    <a class="blogIco" href="#"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                    <a class="blogIco" href="#"
+                      ><i class="fab fa-instagram"></i
+                    ></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center py-4">
+          <button class="primaryButton">Load More</button>
+        </div>
+      </div>
+    </div>
+
+    <footer style="background-image: url('../images/footer\ bg\ img.jpg')">
+      <div class="container text-center text-white py-4">
+        <div class="py-3">
+          <img src="../images/logo.png" width="100px" alt="" />
+        </div>
+        <div class="socialIco py-2">
+          <a class="footerIco" href="#"><i class="fab fa-facebook-f"></i></a>
+          <a class="footerIco" href="#"><i class="fab fa-twitter"></i></a>
+          <a class="footerIco" href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="py-3">
+          <p class="fs-5">Subscribe to our Newsletter</p>
+          <input type="text" class="footerEmail" placeholder="Email" /><button
+            class="footerbtn"
+          >
+            <i class="fas fa-angle-double-right"></i>
+          </button>
+        </div>
+        <div>
+          <p class="p-0 m-0">
+            All Rights Reserved © 2021 RelaxTime. Powered By Red Rhinoz
+          </p>
+          <p class="p-0 m-0">
+            Privacy Policy | Terms of Service | FAQ's | Help| Support | Gift
+            Card | Redeem
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
